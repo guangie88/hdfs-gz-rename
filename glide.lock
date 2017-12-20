@@ -1,0 +1,22 @@
+hash: c92faad4cce8ff80e3135c168e2be4d712feb92bcaaf67d516827332df4c2f17
+updated: 2017-12-20T00:02:45.034355822Z
+imports:
+- name: github.com/alecthomas/template
+  version: a0175ee3bccc567396460bf5acd36800cb10c49c
+  subpackages:
+  - parse
+- name: github.com/alecthomas/units
+  version: 2efee857e7cfd4f3d0138cc3cbb1b4966962b93a
+- name: github.com/colinmarc/hdfs
+  version: 69e5098fa51e208a466aef9a5283b0101e6e4f54
+  subpackages:
+  - protocol/hadoop_common
+  - protocol/hadoop_hdfs
+  - rpc
+- name: github.com/golang/protobuf
+  version: 1e59b77b52bf8e4b449a57e6f79f21226d571845
+  subpackages:
+  - proto
+- name: gopkg.in/alecthomas/kingpin.v2
+  version: 947dcec5ba9c011838740e680966fd7087a71d0d
+testImports: []
